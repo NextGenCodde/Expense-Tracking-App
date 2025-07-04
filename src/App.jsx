@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 import Header from "./Components/Header.jsx";
-import DataInputs from "./Components/DataInputs.jsx";
+import DataInputs from "./Components/Datainputs.jsx";
 import AllDays from "./Components/AllDays.jsx";
 
 export default function App() {

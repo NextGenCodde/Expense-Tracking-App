@@ -1,7 +1,7 @@
 import { useState } from "react";
 //The Form to Add Expense
 // send that object to App.jsx using props (onAddExpense())
-export default function Input({ onAddExpense }) {
+export default function Datainputs({ onAddExpense }) {
   const [title, setTitle] = useState("");
   const [amount, setAmount] = useState("");
   const [category, setCategory] = useState("");
