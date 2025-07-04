@@ -36,7 +36,7 @@ export default function Datainputs({ onAddExpense }) {
         className="border p-2 rounded-md focus:outline-none focus:ring-2 focus:ring-orange-400"
         value={title}
         onChange={(e) => setTitle(e.target.value)}
-        placeholder="Title"
+        placeholder="Item"
         required
       />
       <input
