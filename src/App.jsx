@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
-import Header from "./components/Header";
-import DataInputs from "./Components/DataInputs";
-import AllDays from "./components/AllDays";
+import Header from "./components/Header.jsx";
+import DataInputs from "./Components/DataInputs.jsx";
+import AllDays from "./components/AllDays.jsx";
 
 export default function App() {
   // Load from localStorage initially
