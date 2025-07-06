@@ -28,6 +28,7 @@ export default function Datainputs({ onAddExpense }) {
   };
 
   return (
+    <>
     <form
       onSubmit={handleSubmit}
       className="bg-white shadow p-4 rounded-md grid grid-cols-1 md:grid-cols-5 gap-4"
@@ -82,5 +83,11 @@ export default function Datainputs({ onAddExpense }) {
         Add Expense
       </button>
     </form>
+    <div className=" w-3xl mx-auto grid grid-cols-3 font-semibold text-gray-600  mt-3 text-sm uppercase tracking-wide">
+        <span>Category</span>
+        <span>Item</span>
+        <span>Amount</span>
+      </div>
+    </>
   );
 }
